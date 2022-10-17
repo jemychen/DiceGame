@@ -8,6 +8,8 @@ let randomImageSource = "images/" + randomDiceImage;
 let randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 
 let firstImage = document.querySelectorAll("img")[0];
+
+// Bottom Two Are the Same As The Top
 firstImage.setAttribute("src", randomImageSource);
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2)
 
